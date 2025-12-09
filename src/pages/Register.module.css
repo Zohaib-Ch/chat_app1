@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.link {
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.link:hover {
+  color: var(--secondary-color);
+}
